@@ -1,0 +1,47 @@
+.services-text {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 124.5%;
+	color: #ffffff;
+	margin-bottom: 14px;
+}
+
+.file-row {
+	display: flex;
+	width: 100%;
+	position: relative;
+	&__text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 126%;
+		text-align: center;
+		color: #ffffff;
+		background-color: #363a4d;
+		border: 1px dashed rgba(255, 255, 255, 0.26);
+		border-radius: 10px;
+		max-width: 526px;
+		height: 43px;
+	}
+	&:hover .file-row__text {
+		color: $color-secondary;
+	}
+}
+
+.input-file {
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+	opacity: 0;
+}
+
+input#fileInput {
+	font-size: 0;
+}

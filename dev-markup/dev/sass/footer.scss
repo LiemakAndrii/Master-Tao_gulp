@@ -1,0 +1,106 @@
+.footer {
+	display: flex;
+	position: relative;
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto 50px;
+	padding: 38px 0 0 0;
+	&-menu {
+		display: flex;
+		width: 100%;
+		max-width: 706px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	&-contact {
+		display: flex;
+		width: 100%;
+		max-width: 263px;
+		margin-right: 90px;
+		flex-direction: column;
+	}
+	&-address {
+		display: flex;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 162.5%;
+		color: #fff;
+		margin-bottom: 25px;
+		flex-direction: column;
+	}
+	&-logo {
+		margin-bottom: 28px;
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		width: 1140px;
+		height: 2px;
+		top: 0px;
+		background-color: #e58d35;
+	}
+	&-social {
+		display: flex;
+	}
+}
+
+.address-link {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 162.5%;
+	color: #ffffff;
+	margin-bottom: 4px;
+}
+
+a:hover {
+	color: $color-secondary;
+}
+
+.social-icon {
+	margin-right: 8px;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 162.5%;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+.transportation-menu {
+	width: 100%;
+	max-width: 155px;
+}
+
+.services-menu {
+	width: 100%;
+	max-width: 208px;
+}
+
+.info-menu {
+	width: 100%;
+	max-width: 174px;
+}
+
+.menu-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 146%;
+	color: #ffffff;
+	margin-bottom: 14px;
+}
+
+.menu-subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160.5%;
+	text-decoration-line: underline;
+	color: #85899c;
+	margin-bottom: 7px;
+}

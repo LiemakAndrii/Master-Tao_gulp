@@ -1,0 +1,112 @@
+.delivery {
+	position: relative;
+}
+
+.slider-delivery {
+	max-width: 1170px;
+	margin: 0 auto;
+	& .slick-prev.slick-arrow {
+		width: 50px;
+		height: 50px;
+		left: -65px;
+	}
+	& .slick-next.slick-arrow {
+		width: 50px;
+		height: 50px;
+		right: -65px;
+	}
+}
+
+.slick-initialized .slick-slide.slider-item {
+	margin: 0 15px;
+	padding: 0 20px 37px;
+	background-color: $bg-brand;
+	border-radius: 20px;
+	overflow: hidden;
+	max-width: 360px;
+	height: 482px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.slider-item {
+	&__title {
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 124.5%;
+		text-align: center;
+		margin-bottom: 11px;
+	}
+	&__img-box {
+		margin: 0 -20px 27px;
+	}
+	&__img-box img {
+		width: 100%;
+		height: 229px;
+		object-fit: cover;
+		object-position: center top;
+	}
+	&__info {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 13px;
+	}
+	&__info-weight {
+		margin: 0 15px;
+		background-repeat: no-repeat;
+		background-position: 0 center;
+		padding-left: 34px;
+		background-image: url(../assets/img/icon-box.svg);
+	}
+	&__info-day {
+		margin: 0 15px;
+		background-repeat: no-repeat;
+		background-position: 0 center;
+		padding-left: 34px;
+		background-image: url(../assets/img/icon-calendar.svg);
+	}
+	&__price {
+		font-size: 22px;
+		line-height: 124.5%;
+		text-align: center;
+		color: #a3a3a3;
+		margin-bottom: 18px;
+		& b {
+			font-weight: 700;
+			font-size: 42px;
+			line-height: 1.1;
+			color: #fff;
+		}
+		& span {
+			color: #fff;
+		}
+	}
+	&__row-btn {
+		display: flex;
+		justify-content: space-between;
+		& .btn {
+			width: 153px;
+			border-radius: 90px;
+			border-color: $color-primary;
+			background: $color-primary;
+			font-weight: 600;
+			font-size: 15px;
+			line-height: 146%;
+			text-align: center;
+			color: #fff;
+			padding: 14px 15px;
+		}
+	}
+}
+
+.btn.btn-more {
+	box-shadow: 5px 15px 40px rgb(30 35 66 / 15%);
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 146%;
+	text-align: center;
+	color: #fff;
+	background: none;
+}

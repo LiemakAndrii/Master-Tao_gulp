@@ -1,0 +1,41 @@
+.navbar {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	background-color: #282b38;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container-fluid {
+	width: 100%;
+	max-width: 1140px;
+	padding: 25px 0 40px;
+}
+
+.nav-link {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	& .active {
+		color: #ffffff;
+	}
+	&:hover {
+		color: $color-secondary;
+	}
+}
+
+ul.navbar-nav {
+	width: 550px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+a.first-screen-slider__btn.navbar {
+	padding: 16px 24px;
+}
+
+[aria-expanded="true"] .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M2.03328 0L0.0648918 1.97331L11.0316 12.9675L0 24.0484L1.94676 26L13 14.9408L24.0316 26L26 24.0267L14.9684 12.9675L25.9351 1.97331L23.9667 0L13 10.9942L2.03328 0Z' fill='white'/%3E%3C/svg%3E");
+}

@@ -1,0 +1,331 @@
+@media only screen and (max-width: 1600px) {
+	.first-screen-slider .slick-slide .container {
+		padding-left: 170px;
+	}
+}
+@media only screen and (max-width: 1299.99px) {
+	.slider-delivery {
+		max-width: 780px;
+	}
+
+	.calculation__title {
+		text-align: center;
+		max-width: 436px;
+		margin: 0 auto 54px;
+		padding-right: 0;
+	}
+
+	.calculation__title::after {
+		content: "";
+		position: absolute;
+		width: 85px;
+		height: 2px;
+		background-color: $color-secondary;
+		transform: translate(-172px, 59px);
+	}
+
+	.forms {
+		margin: 0 auto;
+	}
+
+	.boogeyman {
+		display: none;
+	}
+
+	.cooperation-screen__box {
+		width: 335px;
+		display: flex;
+		flex-direction: column-reverse;
+		margin-bottom: 75px;
+		align-items: center;
+	}
+
+	.cooperation-screen__box.flex-row-reverse {
+		display: flex;
+		flex-direction: column;
+		flex-direction: column-reverse;
+	}
+
+	.wrapper {
+		width: 100%;
+		max-width: 1145px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about-title {
+		text-align: center;
+	}
+
+	.about-title::before {
+		transform: translate(65px, 65px);
+	}
+
+	.wrapper-box.about-content {
+		margin-bottom: 40px;
+	}
+}
+
+@media only screen and (max-width: 1199.99px) {
+	.footer {
+		display: flex;
+		position: relative;
+		width: 100%;
+		max-width: 335px;
+		margin: 0 auto;
+		padding: 38px 0 0 0;
+	}
+
+	.footer::before {
+		content: "";
+		position: absolute;
+		width: 335px;
+		height: 2px;
+		top: 0px;
+		background-color: #e58d35;
+	}
+	.footer-menu {
+		display: none;
+	}
+}
+
+/*!    Адаптация под планшет */
+@media only screen and (max-width: 991.98px) {
+	.slider-delivery {
+		max-width: 390px;
+	}
+
+	.first-screen-slider__title {
+		font-size: 32px;
+	}
+
+	.first-screen-slider__subtitle {
+		font-size: 16px;
+	}
+
+	nav.navbar .container-fluid {
+		padding: 9px 40px 6px 20px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	ul.navbar-nav {
+		width: 602px;
+		display: flex;
+		margin: 0 auto;
+		align-items: center;
+	}
+
+	.btn.navbar-button {
+		display: block;
+		max-width: 295px;
+		margin: 0 auto;
+	}
+
+	a.first-screen-slider__btn.navbar {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* calculation */
+
+	.wrapper {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 335px;
+		display: flex;
+	}
+
+	.about-title {
+		font-size: 24px;
+	}
+
+	.about-title::before {
+		transform: translate(35px, 45px);
+	}
+
+	.slider-delivery .slick-list {
+		margin-bottom: 32px;
+	}
+}
+
+/*!   Адаптация под мобилу */
+@media only screen and (max-width: 767.98px) {
+	nav.navbar.navbar-expand-lg {
+		margin: 0 20px;
+		min-height: 72px;
+	}
+
+	ul.navbar-nav {
+		width: 296px;
+	}
+	a.nav-link {
+		font-size: 24px;
+		line-height: 222%;
+	}
+
+	section {
+		margin: 0 0 $section-margin-mobile;
+	}
+
+	.first-screen-slider .slick-slide {
+		border-radius: 0;
+		padding: 100px 0 90px;
+		position: relative;
+	}
+
+	.first-screen-slider .slick-slide::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(0deg, rgba(4, 5, 17, 0.6), rgba(4, 5, 17, 0.6)),
+			url(transportation-logistics.jpg);
+	}
+
+	.first-screen-slider .slick-slide .container {
+		z-index: 1;
+		position: relative;
+		padding: 0 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.first-screen-slider .slick-dots {
+		bottom: 15px;
+	}
+
+	.first-screen-slider__title,
+	.first-screen-slider__subtitle {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.first-screen-slider__subtitle {
+		padding: 0;
+		margin-bottom: 18px;
+	}
+
+	.first-screen-slider__btn {
+		margin: 0 auto;
+	}
+
+	/* Calculation */
+
+	.calculation__title {
+		font-size: 24px;
+	}
+
+	.calculation__title::after {
+		transform: translate(-135px, 40px);
+	}
+
+	.container {
+		/* max-width: 335px; */
+		position: relative;
+	}
+
+	.forms {
+		max-width: 335px;
+		grid-template-columns: 248px;
+	}
+
+	/*  */
+	.first-screen-slider__btn img {
+		margin: 0 -17px 0 49px;
+	}
+	/*  */
+
+	.forms-item.box-8 {
+		grid-column: 1/-1;
+		padding: 6px 0 34px 0;
+	}
+
+	.faq-title {
+		max-width: 230px;
+	}
+
+	.faq-subtitle {
+		max-width: 270px;
+	}
+	.cooperation-text {
+		width: 335px;
+	}
+	.cooperation-img {
+		width: 335px;
+		height: auto;
+		margin-bottom: 36px;
+	}
+	section.cooperation.bg-gray {
+		padding-top: 54px;
+	}
+
+	.template-title h2 {
+		font-size: 24px;
+		line-height: 124.5%;
+	}
+
+	.template-title {
+		margin-bottom: 40px;
+	}
+
+	.template-title p {
+		font-size: 16px;
+		line-height: 30px;
+		margin: 6px 0 0;
+	}
+
+	/* Delivery */
+
+	.slick-slide.slider-item {
+		max-width: 335px;
+	}
+
+	.slider-item__row-btn .btn {
+		/* width: 138px; */
+		padding: 14px 10px;
+	}
+
+	/* Services */
+
+	.services .slick-initialized .slick-slide.slider-item {
+	}
+
+	.services-text {
+		font-size: 14px;
+	}
+
+	.services .slider-item__row-btn {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	/* Accordion */
+
+	button.accordion-button.collapsed {
+		font-size: 16px;
+	}
+	button.accordion-button {
+		font-size: 16px;
+	}
+
+	.accordion-body {
+		font-size: 14px;
+	}
+	.footer-contact {
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.footer-address {
+		align-items: center;
+	}
+	.footer-social {
+		margin-bottom: 44px;
+	}
+}
